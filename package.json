@@ -1,7 +1,7 @@
 {
   "name": "use-formspree",
   "description": "React hook to simplify creating forms with FormSpree.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "https://github.com/danielkov/use-formspree.git",
   "author": "Daniel Emod Kovacs <kovacsemod@gmail.com>",
   "license": "MIT",
