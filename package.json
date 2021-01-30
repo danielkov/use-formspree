@@ -5,22 +5,23 @@
   "repository": "https://github.com/danielkov/use-formspree.git",
   "author": "Daniel Emod Kovacs <kovacsemod@gmail.com>",
   "license": "MIT",
-  "main": "./dist/index.umd.js",
-  "module": "./dist/index.module.js",
-  "exports": "./dist/index.modern.js",
+  "source": "src/index.ts",
+  "main": "dist/use-formspree.js",
+  "module": "dist/use-formspree.modern.js",
+  "unpkg": "dist/use-formspree.umd.js",
+  "types": "dist/index.d.ts",
   "files": [
-    "dist",
-    "README.md",
-    "LICENSE"
+    "dist"
   ],
   "scripts": {
-    "build": "microbundle --no-sourcemap --no-compress src/index.ts",
+    "build": "microbundle --no-sourcemap --no-compress",
     "release": "standard-version"
   },
   "devDependencies": {
     "@types/react": "17.0.0",
     "microbundle": "0.13.0",
-    "react": "17.0.1"
+    "react": "17.0.1",
+    "standard-version": "9.1.0"
   },
   "peerDependencies": {
     "react": ">= 16.8"
