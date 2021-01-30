@@ -1,0 +1,28 @@
+{
+  "name": "use-formspree",
+  "description": "React hook to simplify creating forms with FormSpree.",
+  "version": "1.0.0",
+  "repository": "https://github.com/danielkov/use-formspree.git",
+  "author": "Daniel Emod Kovacs <kovacsemod@gmail.com>",
+  "license": "MIT",
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.module.js",
+  "exports": "./dist/index.modern.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "microbundle --no-sourcemap --no-compress src/index.ts",
+    "release": "standard-version"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.0",
+    "microbundle": "0.13.0",
+    "react": "17.0.1"
+  },
+  "peerDependencies": {
+    "react": ">= 16.8"
+  }
+}
