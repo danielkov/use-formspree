@@ -20,7 +20,7 @@
   "devDependencies": {
     "@types/react": "17.0.1",
     "microbundle": "0.13.0",
-    "react": "17.0.1",
+    "react": "17.0.2",
     "standard-version": "9.1.0"
   },
   "peerDependencies": {
