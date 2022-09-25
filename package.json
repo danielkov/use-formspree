@@ -21,7 +21,7 @@
     "@types/react": "17.0.1",
     "microbundle": "0.13.0",
     "react": "17.0.1",
-    "standard-version": "9.1.0"
+    "standard-version": "9.5.0"
   },
   "peerDependencies": {
     "react": ">= 16.8"
